@@ -1,9 +1,14 @@
 {
-  "name": "Tour of heroes",
+  "name": "tour-of-heroes",
   "version": "0.0.1",
   "license": "Apache 2.0",
-  "author":"Daniel Eaton",
-
+  "author":{
+    "name": "Daniel Eaton"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannyEaton/angular2-quickstart"
+  },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
